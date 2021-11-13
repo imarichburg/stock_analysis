@@ -13,26 +13,28 @@ I used the formula Closing Price/Opening Price -1 to calculate the return on inv
 The snapshots of the DAQO data shows a manual search of the DAQO data.  
 Manually searching the spreadsheet for DAQO opening price and closing price is inefficient.  
 
-![This is a alt text.](/image/sample.png "This is a sample image.")
+![This is a alt text.](https://github.com/imarichburg/stock_analysis/blob/f3baeb25da4a7bb63838b496bba2aee0742c62dc/Resources/DAQO_stock_data_in_Excel.PNG)
 
 ### Examine VBA
 
 A for loop was utilized to iterate through the rows for stock data searching for the DQ ticker from 2018 stock data.  
 The nested if statements find the initial opening price and final closing price of DAQO, store then to variables, then calculated the annual return on investment.
 
-![This is a alt text.](/image/sample.png "This is a sample image.")
+![This is a alt text.](https://github.com/imarichburg/stock_analysis/blob/f3baeb25da4a7bb63838b496bba2aee0742c62dc/Resources/ForLoop_with_nested_conditional_statements.PNG)
 
 ### DQ Analysis Results
 
 The initial analysis of DAQO Energy Corp showed a 63% loss for return on investment.  
 The results can be viewed below.  This significant loss was not an acceptable ROI for Steve’s parents.
 
+![This is a alt text.](https://github.com/imarichburg/stock_analysis/blob/f3baeb25da4a7bb63838b496bba2aee0742c62dc/Resources/DAQO_Analysis_Results.PNG)
+
 ### All Stocks Analysis
 
 I created a VBA scrip to analyze all stock data provided by Steve.  
 AllStocksAnalysis prompts the user for the year then returns the ROI for all the stock data and runtime. Below you can see the results for 2017 and 2018.
 
-![This is a alt text.](/image/sample.png "This is a sample image.")
+![This is a alt text.](https://github.com/imarichburg/stock_analysis/blob/f3baeb25da4a7bb63838b496bba2aee0742c62dc/Resources/AllStockAnalysis_output.PNG )
 
 ### Refactoring Code
 
@@ -49,7 +51,7 @@ Refactoring code has multiple advantages but one major disadvantage, time is spe
 
 Below you can see the results of running the refactored VBA code for 2017 and 2018.  The runtime has decreased by 80%.  The formatting allows the user to quickly determine which stocks had a positive return on investment as they are highlighted in green.  Most of the stocks in the Green Energy Sector that Steve selected performed better in 2017 than 2018.  After reviewing the Stock analysis data in the refactored VBA code, I would recommend that Steve’s parents consider ENPH and RUN as green energy company investment alternatives to DQ.  
 
-![This is a alt text.](/image/sample.png "This is a sample image.")
+![This is a alt text.](https://github.com/imarichburg/stock_analysis/blob/f3baeb25da4a7bb63838b496bba2aee0742c62dc/Resources/AllStockAnalysis_output_withFormating.PNG)
 
 
 
