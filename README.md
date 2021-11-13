@@ -49,7 +49,7 @@ Refactoring code has multiple advantages but one major disadvantage, time is spe
 
 ### All Stocks Analysis Results
 
-Below you can see the results of running the refactored VBA code for 2017 and 2018.  The runtime has decreased by 80%.  The formatting allows the user to quickly determine which stocks had a positive return on investment as they are highlighted in green.  Most of the stocks in the Green Energy Sector that Steve selected performed better in 2017 than 2018.  After reviewing the Stock analysis data in the refactored VBA code, I would recommend that Steve’s parents consider ENPH and RUN as green energy company investment alternatives to DQ.  
+Below you can see the results of running the refactored VBA code for 2017 and 2018.  The runtime has decreased by 80%.  The formatting allows the user to quickly determine which stocks had a positive return on investment as they are highlighted in green.  Most of the stocks in the Green Energy Sector that Steve selected performed better in 2017 than 2018.  After reviewing the Stock analysis data in the refactored VBA code, I would recommend that Steve’s parents consider ENPH as a green energy company investment alternative to DQ.  The ROI for ENPH was 130% in 2017 and 82% in 2018.
 
 ![This is a alt text.](https://github.com/imarichburg/stock_analysis/blob/f3baeb25da4a7bb63838b496bba2aee0742c62dc/Resources/AllStockAnalysis_output_withFormating.PNG)
 
